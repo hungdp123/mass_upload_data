@@ -1,4 +1,3 @@
-#import browser as browser
 import drv as drv
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -21,7 +20,6 @@ confirm_button = '//*[@id="pagewrapper"]/div[3]/div/div[1]/form[2]/input'
 userName = "visitor"
 password = "1234567"
 
-# filepath = 'C:/Users/hungd/Downloads/EOS project/test.xml'
 filepath = "C:/Users/hungd/Downloads/EOS project/United States + Pacific Ocean (revised)/"
 dirs = os.listdir(filepath)
 for file in dirs:
@@ -49,16 +47,6 @@ for file in dirs:
         print("Upload successful!")
         driver.quit()
 
-#driver.find_element(By.XPATH, '//*[@id="select_file"]/input[2]').send_keys(filepath)
-# choose_file.send_keys(filepath)
-
-# file_upload = WebDriverWait(driver, 50).until(
-#     EC.presence_of_element_located((By.XPATH, "/html/body/div/div[3]/div/div[2]/div[2]/div/form/div[4]/input[1]")))
-# file_upload.click();
-#file_upload.send_keys(filepath)
-
-# pyautogui.write('C:/Users/hungd/Downloads/EOS project/United States + Pacific Ocean (revised)/Event 2005 (5.4.1.1).xml')
-# pyautogui.press('return')
 
 
 
