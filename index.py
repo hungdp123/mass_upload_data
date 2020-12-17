@@ -1,4 +1,4 @@
-import drv as drv
+
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -17,8 +17,8 @@ ok_button = '/html/body/div/div[3]/div/div[2]/div[2]/div/form/div[4]/input[2]'
 confirm_button = '//*[@id="pagewrapper"]/div[3]/div/div[1]/form[2]/input'
 
 
-userName = "visitor"
-password = "1234567"
+userName = //Enter username
+password = //Enter password
 
 filepath = "C:/Users/hungd/Downloads/EOS project/United States + Pacific Ocean (revised)/"
 dirs = os.listdir(filepath)
@@ -44,6 +44,8 @@ for file in dirs:
             EC.element_to_be_clickable((By.XPATH, ok_button))).click()
         WebDriverWait(driver, 50).until(
             EC.element_to_be_clickable((By.XPATH, confirm_button))).click()
+        //Remove the below comment if you want to remove the file from computer after uploading
+        //os.remove(file_name) 
         print("Upload successful!")
         driver.quit()
 
