@@ -21,6 +21,6 @@ Solution:
 - Check the <comments> section of two events, delete the one with earlier update (i.e keep the one with latest update)
  
  For example, these two events have the same NetworkEventCode
- ![Duplicate data solution](https://drive.google.com/file/d/16b2lx5cO04FXdTyFtkL19WFG-kOKzSVH/view?usp=sharing)
+ ![Duplicate data solution](https://drive.google.com/file/d/1IStygybUXPNWBY8b8BHjUYbwECQTim_Y/view)
  
  In this case, keep the one with "updated=2018-07-25T01:23:02.395Z" (the one above) because it has the latest updated time.
