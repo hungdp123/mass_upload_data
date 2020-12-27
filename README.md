@@ -17,7 +17,7 @@ This means there are two events in the xml file with similar NetworkEventCode
 
 Solution:
 - Open the xml file with error in your xml editor
-- Search for event with NetworkEventCode
+- Search for event with corresponding NetworkEventCode
 - Check the <comments> section of two events, delete the one with earlier update (i.e keep the one with latest update)
  
  For example, these two events have the same NetworkEventCode
