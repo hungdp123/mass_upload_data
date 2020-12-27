@@ -11,7 +11,7 @@ A program to upload multiple xml files to WOVOdat database automatically
 - Edit username and password in `username` and `password` variable
 
 Error that may occur:
-![Duplicate data](https://drive.google.com/file/d/16b2lx5cO04FXdTyFtkL19WFG-kOKzSVH/view?usp=sharing) 
+![Duplicate data error](https://github.com/hungdp123/mass_upload_data/blob/master/duplicate%20data%20error.png) 
 
 This means there are two events in the xml file with similar NetworkEventCode
 
